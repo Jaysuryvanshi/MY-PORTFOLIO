@@ -5,7 +5,8 @@
 }
 
 body {
-  background-image: url("https://img.freepik.com/premium-photo/dark-wall-halloween-background-concept-scary-background-horror-texture-banner_526818-623.jpg?semt=ais_user_personalization&w=740&q=80");
+  /* background-image: url("https://img.freepik.com/premium-photo/dark-wall-halloween-background-concept-scary-background-horror-texture-banner_526818-623.jpg?semt=ais_user_personalization&w=740&q=80"); */
+  background-color: #000;
   height: 3000px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
