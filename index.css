@@ -25,13 +25,16 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 80px;
-  background-color: rgb(65, 37, 37);
+  background-image:url("https://i.pinimg.com/1200x/05/c7/21/05c721269ec50303a652364eac0c6e30.jpg") ;
+ background-size: cover;  
+
+  
 }
 
 
 .logo {
-  font-size: 25px;
-  font-weight: 100px;
+  font-size: 28px;
+  font-weight: 300px;
   color: white;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -39,15 +42,65 @@ header {
 /* FIRST NAME */
 .first {
   padding: 2px 10px;
-  background-color: rgb(0, 192, 192);
+    font-weight: 300px;
+ font-size: 28px;
   border-radius: 12px;
-  color: rgb(0, 0, 36);
+  /* color: rgb(0, 0, 0); */
+  position: relative;
+  top: 0px;
+   animation-name: flo;
+  animation-timing-function:ease;
+  animation-duration: 3s;
+  animation-iteration-count:infinite;
+  
+}
+
+@keyframes flo {
+  
+ from{
+    transform: translateX(-200px);
+    opacity:0;
+     color:rgb(246, 253, 255);
+         left:-200px;
+    
+  }
+
+  to{
+    transform: translateX(0);
+    opacity:1;
+      color:rgb(233, 240, 140);
+          left:0px;
+  
+}
 }
 
 /* LAST NAME */
 .last {
-  color: bisque;
+  color: rgb(24, 87, 90);
+  position: relative;
+  top: 0px;
+  animation-name: flot;
+  animation-timing-function:ease;
+  animation-duration: 3s;
+  animation-iteration-count:infinite;
 }
+
+@keyframes flot {
+  
+  from{
+top: 30px;
+    left:0px;
+    color:rgb(246, 253, 255);
+  }
+
+  to{
+    right:0px;
+    top: 0px;
+  color:rgb(233, 240, 140);
+  }
+  
+}
+
 
 nav a {
 
@@ -59,7 +112,7 @@ nav a {
 }
 
 nav :hover {
-  color: rgb(142, 238, 255);
+  color: rgb(7, 24, 27);
   /* font-size: 20px; */
   transition: linear;
 }
@@ -130,7 +183,12 @@ body.dark .sun-icon {
   font-size: 28px;
   margin-bottom: 10px;
   font-weight: 400;
+
+          
 }
+
+
+
 
 .text h1 {
   font-size: 55px;
@@ -522,6 +580,7 @@ img {
 
 .certificate-card1 {
   background-image: url("10.webp");
+   background-size: cover;  
   padding: 40px 30px;
   border-radius: 15px;
   width: 350px;
@@ -561,6 +620,7 @@ img {
   transform: translateY(5px) scale(1.5);
   box-shadow: 60px 60px 60px rgba(243, 147, 147, 0.2);
   background-image: url("Screenshot\ 2026-02-23\ 133048.png");
+  
 
   width: 1080px;
   height: 500px;
@@ -605,6 +665,7 @@ img {
 
 .certificate-card2 {
   background-image: url("10.webp");
+   background-size: cover;  
   padding: 40px 30px;
   border-radius: 15px;
   width: 350px;
@@ -619,6 +680,7 @@ img {
 
 .certificate-card3 {
   background-image: url("10.webp");
+   background-size: cover;  
   padding: 40px 30px;
   border-radius: 15px;
   width: 350px;
