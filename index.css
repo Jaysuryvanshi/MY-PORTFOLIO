@@ -325,6 +325,13 @@ img {
   align-items: center;
   gap: 4rem;
   padding: 40px 0px;
+  
+  background-color: rgba(0, 229, 255, 0.5);
+  margin-top: 30px;
+border-top-left-radius: 100%;
+
+
+  
 
 }
 
@@ -333,7 +340,10 @@ img {
   width: 250px;
   height: 400px;
   border-radius: 20px;
-  box-shadow: 0 0 35px #8abef3;
+
+     filter: grayscale(100%);
+      background-size: cover;  
+
 
 }
 
@@ -364,22 +374,25 @@ img {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.btn {
+.btn1 {
   display: inline-block;
   padding: 12px 28px;
-  background-color: #00f2ff;
-  color: #0f172a;
+
+    background-color: burlywood;
+  color: #141f1f;
   text-decoration: none;
   font-weight: bold;
   border-radius: 30px;
-  box-shadow: 0 0 15px #00f2ff;
+  box-shadow: 0 0 15px #ff884d;
   /* The neon glow effect */
   transition: 0.3s ease;
 }
 
-.btn:hover {
+.btn1:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 25px #00f2ff;
+  box-shadow: 0 0 25px #ffc272;
+  background-color: #0b3838;
+  color: #e6eaf5;
 }
 
 /* -------------------------------------------ABOUT SECTION END------------------------------------- */
@@ -398,11 +411,11 @@ img {
   text-align: center;
   font-size: 40px;
   margin-top: 10rem;
-  color: wheat;
+  color: rgb(248, 248, 248);
 }
 
 .heading span {
-  color: #00f2ff;
+color: rgb(233, 240, 140);
 }
 
 .skills-container {
@@ -573,160 +586,127 @@ img {
 
   transform: scale(0.8);
   transform-origin: top center;
+  
 }
 
 
+.uuu:hover{
 
+  background-color: rgba(195, 249, 255, 0.5);
+  margin-bottom: 30px;
+
+border-top-right-radius: 100%;
+border-bottom-left-radius: 100%;
+
+}
+.iii:hover{
+    background-color: rgba(195, 249, 255, 0.5);
+  margin-bottom: 30px;
+border-top-left-radius: 100%;
+border-bottom-right-radius: 100%;
+
+
+
+}
 
 .certificate-card1 {
-  background-image: url("10.webp");
+  background-image: url("NCAT.png");
+  
    background-size: cover;  
-  padding: 40px 30px;
+  /* padding: 40px 30px; */
   border-radius: 15px;
-  width: 350px;
+  /* position:relative; */
+  top: 0px;
+  width: 450px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: transform 0.3s ease;
-  border: 2px solid transparent;
+ transition-property:all;
+    transition-duration:  2s;
+
+  border: 6px solid rgb(126, 223, 255);
 
 }
 
-.certificate-card1:hover {
-  transform: translateY(5px) scale(1.5);
-  box-shadow: 60px 60px 60px rgba(243, 147, 147, 0.2);
-  background-image: url("NCAT.png");
-  width: 700px;
-  height: 500px;
-  animation: certificate 2s ease-in infinite;
 
-
-
-}
-
-@keyframes certificate {
-  from {
-    transform: translateX(50px) scale(1);
-  }
-
-  to {
-
-    transform: translatey(0px)scale(0.5);
-  }
-
-}
-
-.certificate-card2:hover {
-  transform: translateY(5px) scale(1.5);
-  box-shadow: 60px 60px 60px rgba(243, 147, 147, 0.2);
-  background-image: url("Screenshot\ 2026-02-23\ 133048.png");
-  
-
-  width: 1080px;
-  height: 500px;
-  animation: certificate 2s ease-in infinite;
-
-}
-
-@keyframes certificate {
-  from {
-    transform: translateX(50px) scale(1);
-  }
-
-  to {
-
-    transform: translatey(0px)scale(0.5);
-
-  }
-
-}
-
-.certificate-card3:hover {
-  transform: translateY(5px) scale(1.5);
-  box-shadow: 60px 60px 60px rgba(243, 147, 147, 0.2);
-  background-image: url("Screenshot\ 2026-02-23\ 140015.png");
-  width: 1080px;
-  height: 500px;
-  animation: certificate 2s ease-in infinite;
-}
-
-@keyframes certificate {
-  from {
-    transform: translateX(50px) scale(1);
-  }
-
-  to {
-
-    transform: translatey(0px)scale(0.5);
-
-  }
-
-}
 
 .certificate-card2 {
-  background-image: url("10.webp");
+  background-image: url("Screenshot\ 2026-02-23\ 133048.png");
    background-size: cover;  
-  padding: 40px 30px;
+  /* padding: 40px 30px; */
   border-radius: 15px;
-  width: 350px;
+  width: 450px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: transform 0.3s ease;
-  border: 2px solid transparent;
+  /* transition: transform 0.3s ease; */
+  border: 6px solid rgb(126, 223, 255);
+   transition-property:all;
+    transition-duration:  2s;
   margin-top: 5rem;
 
 }
 
 .certificate-card3 {
-  background-image: url("10.webp");
+  background-image: url("Screenshot\ 2026-02-23\ 140015.png");
+  
    background-size: cover;  
-  padding: 40px 30px;
+  /* padding: 40px 30px; */
   border-radius: 15px;
-  width: 350px;
+  /* position:relative; */
+  top: 0px;
+  width: 450px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: transform 0.3s ease;
-  border: 2px solid transparent;
-}
+ transition-property:all;
+    transition-duration:  2s;
 
-
-.certificate-card1 .icon {
-  font-size: 45px;
-  color: rgb(94, 56, 6);
-  margin-bottom: 20px;
-
-}
-
-.certificate-card2 .icon {
-  font-size: 45px;
-  color: rgb(94, 56, 6);
-  margin-bottom: 20px;
-
-}
-
-.certificate-card3 .icon {
-  font-size: 45px;
-  color: rgb(94, 56, 6);
-  margin-bottom: 20px;
+  border: 6px solid rgb(126, 223, 255);
 
 }
 
 
-.service-card1 h3 {
-  font-size: 30px;
-  margin-bottom: 20px;
+.certificate-card1:hover {
+  /* transform: translatex(5px) scale(1.5); */
+  box-shadow: 60px 60px 60px rgba(243, 147, 147, 0.2);
+
+  /* background-image: url("NCAT.png"); */
+  /* width: 700px;
+  height: 500px; */
+     background-color: darksalmon;
+    margin-right: 100px;
+        width: 500px;
+        background-size: cover;
+
 }
 
-.certificate-card2 h3 {
-  font-size: 30px;
-  margin-bottom: 20px;
+
+.certificate-card2:hover {
+  transform: translateY(5px) scale(1.5);
+  box-shadow: 60px 60px 60px rgba(243, 147, 147, 0.2);
+  /* background-image: url("Screenshot\ 2026-02-23\ 133048.png"); */
+       background-color: darksalmon;
+    margin-bottom: 100px;
+        width: 500px;
+        background-size: cover;
+
+
 }
 
-.certificate-card3 h3 {
-  font-size: 30px;
-  margin-bottom: 20px;
+
+.certificate-card3:hover {
+  /* transform: translateY(5px) scale(1.5); */
+  box-shadow: 60px 60px 60px rgba(243, 147, 147, 0.2);
+  /* background-image: url("Screenshot\ 2026-02-23\ 140015.png"); */
+        background-color: darksalmon;
+    margin-left: 100px;
+        width: 500px;
+        background-size: cover;
+
 }
 
 /* Highlighted Center Card */
@@ -736,23 +716,7 @@ img {
   transform: scale(1.02);
 }
 
-/* Read More Button */
-.read-more {
-  background-color: rgb(74, 177, 153);
-  border: none;
-  padding: 10px 25px;
-  border-radius: 25px;
-  font-weight: 600;
-  cursor: pointer;
-  margin-top: auto;
-  box-shadow: 0 0 15px rgba(0, 229, 255, 0.5);
-  transition: 0.3s;
-}
 
-.read-more:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 5px 20px rgba(0, 229, 255, 0.7);
-}
 
 /* ------------------------------------CERTIFICATE SECTION END------------------------------------ */
 
@@ -941,7 +905,8 @@ textarea {
 
 .footer-bar {
 
-  background-color: rgb(177, 103, 103);
+  background-image:url("https://i.pinimg.com/1200x/05/c7/21/05c721269ec50303a652364eac0c6e30.jpg") ;
+  background-size: cover;
   padding: 10px;
   border-top-left-radius: 40px;
   border-top-right-radius: 40px;
@@ -992,6 +957,6 @@ textarea {
   font-weight: 700;
 }
 .f span{
-  color: #3770ff;
+  color: #f4ff79;
 }
 /* ----------------------------------fl end----------------------------------- */
