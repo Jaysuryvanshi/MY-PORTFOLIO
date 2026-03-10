@@ -25,10 +25,10 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 80px;
-  background-image:url("https://i.pinimg.com/1200x/05/c7/21/05c721269ec50303a652364eac0c6e30.jpg") ;
- background-size: cover;  
+  background-image: url("https://i.pinimg.com/1200x/05/c7/21/05c721269ec50303a652364eac0c6e30.jpg");
+  background-size: cover;
 
-  
+
 }
 
 
@@ -42,36 +42,35 @@ header {
 /* FIRST NAME */
 .first {
   padding: 2px 10px;
-    font-weight: 300px;
- font-size: 28px;
+  font-weight: 300px;
+  font-size: 28px;
   border-radius: 12px;
   /* color: rgb(0, 0, 0); */
   position: relative;
   top: 0px;
-   animation-name: flo;
-  animation-timing-function:ease;
+  animation-name: flo;
+  animation-timing-function: ease;
   animation-duration: 3s;
-  animation-iteration-count:infinite;
-  
+  animation-iteration-count: infinite;
+
 }
 
 @keyframes flo {
-  
- from{
+
+  from {
     transform: translateX(-200px);
-    opacity:0;
-     color:rgb(246, 253, 255);
-         left:-200px;
-    
+    opacity: 0;
+    color: rgb(246, 253, 255);
+    left: -200px;
+
   }
 
-  to{
+  to {
     transform: translateX(0);
-    opacity:1;
-      color:rgb(233, 240, 140);
-          left:0px;
-  
-}
+    opacity: 1;
+    color: rgb(233, 240, 140);
+    left: 0px;
+  }
 }
 
 /* LAST NAME */
@@ -80,27 +79,26 @@ header {
   position: relative;
   top: 0px;
   animation-name: flot;
-  animation-timing-function:ease;
+  animation-timing-function: ease;
   animation-duration: 3s;
-  animation-iteration-count:infinite;
+  animation-iteration-count: infinite;
 }
 
 @keyframes flot {
-  
-  from{
-top: 30px;
-    left:0px;
-    color:rgb(246, 253, 255);
+
+  from {
+    top: 30px;
+    left: 0px;
+    color: rgb(246, 253, 255);
   }
 
-  to{
-    right:0px;
+  to {
+    right: 0px;
     top: 0px;
-  color:rgb(233, 240, 140);
+    color: rgb(233, 240, 140);
   }
-  
-}
 
+}
 
 nav a {
 
@@ -183,12 +181,7 @@ body.dark .sun-icon {
   font-size: 28px;
   margin-bottom: 10px;
   font-weight: 400;
-
-          
 }
-
-
-
 
 .text h1 {
   font-size: 55px;
@@ -266,18 +259,16 @@ body.dark .sun-icon {
   height: 400px;
   background-color: rgba(0, 229, 255, 0.5);
   margin-top: 30px;
-border-top-left-radius: 100%;
+  border-top-left-radius: 100%;
 
 }
 
 .My-img img {
   width: 350px;
   border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-
-
+  border-bottom-right-radius: 50px;
   margin-top: 5rem;
-       filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 .My-img img:hover {
@@ -285,9 +276,6 @@ border-top-left-radius: 100%;
   box-shadow: 30px;
   position: relative;
   top: 0px;
-
-
-
 }
 
 img {
@@ -296,8 +284,6 @@ img {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-direction: alternate;
- 
-
 }
 
 @keyframes jay {
@@ -325,14 +311,10 @@ img {
   align-items: center;
   gap: 4rem;
   padding: 40px 0px;
-  
+
   background-color: rgba(0, 229, 255, 0.5);
   margin-top: 30px;
-border-top-left-radius: 100%;
-
-
-  
-
+  border-top-left-radius: 100%;
 }
 
 /* Image Styling */
@@ -341,10 +323,8 @@ border-top-left-radius: 100%;
   height: 400px;
   border-radius: 20px;
 
-     filter: grayscale(100%);
-      background-size: cover;  
-
-
+  filter: grayscale(100%);
+  background-size: cover;
 }
 
 /* Content Styling */
@@ -378,7 +358,7 @@ border-top-left-radius: 100%;
   display: inline-block;
   padding: 12px 28px;
 
-    background-color: burlywood;
+  background-color: burlywood;
   color: #141f1f;
   text-decoration: none;
   font-weight: bold;
@@ -415,7 +395,7 @@ border-top-left-radius: 100%;
 }
 
 .heading span {
-color: rgb(233, 240, 140);
+  color: rgb(233, 240, 140);
 }
 
 .skills-container {
@@ -428,7 +408,6 @@ color: rgb(233, 240, 140);
   color: #ffffff;
 }
 
-
 .technical-skills {
   flex: 1;
 
@@ -440,7 +419,6 @@ color: rgb(233, 240, 140);
 
 .skill-box {
   margin-bottom: 25px;
-
 }
 
 .skill-info1 {
@@ -530,6 +508,7 @@ color: rgb(233, 240, 140);
   justify-content: center;
   margin: 0 auto 15px;
 }
+
 .inner-circle {
   width: 70px;
   height: 70px;
@@ -557,8 +536,6 @@ color: rgb(233, 240, 140);
 .certificate-section {
   text-align: center;
   padding: 60px 5%;
-
-
 }
 
 .certificate-title {
@@ -583,36 +560,31 @@ color: rgb(233, 240, 140);
   flex-wrap: wrap;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
   transform: scale(0.8);
   transform-origin: top center;
-  
 }
 
-
-.uuu:hover{
+.uuu:hover {
 
   background-color: rgba(195, 249, 255, 0.5);
   margin-bottom: 30px;
 
-border-top-right-radius: 100%;
-border-bottom-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 100%;
 
 }
-.iii:hover{
-    background-color: rgba(195, 249, 255, 0.5);
+
+.iii:hover {
+  background-color: rgba(195, 249, 255, 0.5);
   margin-bottom: 30px;
-border-top-left-radius: 100%;
-border-bottom-right-radius: 100%;
-
-
-
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 100%;
 }
+
 
 .certificate-card1 {
   background-image: url("NCAT.png");
-  
-   background-size: cover;  
+  background-size: cover;
   /* padding: 40px 30px; */
   border-radius: 15px;
   /* position:relative; */
@@ -622,18 +594,16 @@ border-bottom-right-radius: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
- transition-property:all;
-    transition-duration:  2s;
+  transition-property: all;
+  transition-duration: 2s;
 
   border: 6px solid rgb(126, 223, 255);
 
 }
 
-
-
 .certificate-card2 {
   background-image: url("Screenshot\ 2026-02-23\ 133048.png");
-   background-size: cover;  
+  background-size: cover;
   /* padding: 40px 30px; */
   border-radius: 15px;
   width: 450px;
@@ -643,16 +613,15 @@ border-bottom-right-radius: 100%;
   align-items: center;
   /* transition: transform 0.3s ease; */
   border: 6px solid rgb(126, 223, 255);
-   transition-property:all;
-    transition-duration:  2s;
+  transition-property: all;
+  transition-duration: 2s;
   margin-top: 5rem;
-
 }
 
 .certificate-card3 {
   background-image: url("Screenshot\ 2026-02-23\ 140015.png");
-  
-   background-size: cover;  
+
+  background-size: cover;
   /* padding: 40px 30px; */
   border-radius: 15px;
   /* position:relative; */
@@ -662,26 +631,23 @@ border-bottom-right-radius: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
- transition-property:all;
-    transition-duration:  2s;
-
+  transition-property: all;
+  transition-duration: 2s;
   border: 6px solid rgb(126, 223, 255);
-
 }
+
 
 
 .certificate-card1:hover {
   /* transform: translatex(5px) scale(1.5); */
   box-shadow: 60px 60px 60px rgba(243, 147, 147, 0.2);
-
   /* background-image: url("NCAT.png"); */
   /* width: 700px;
   height: 500px; */
-     background-color: darksalmon;
-    margin-right: 100px;
-        width: 500px;
-        background-size: cover;
-
+  background-color: darksalmon;
+  margin-right: 100px;
+  width: 500px;
+  background-size: cover;
 }
 
 
@@ -689,12 +655,10 @@ border-bottom-right-radius: 100%;
   transform: translateY(5px) scale(1.5);
   box-shadow: 60px 60px 60px rgba(243, 147, 147, 0.2);
   /* background-image: url("Screenshot\ 2026-02-23\ 133048.png"); */
-       background-color: darksalmon;
-    margin-bottom: 100px;
-        width: 500px;
-        background-size: cover;
-
-
+  background-color: darksalmon;
+  margin-bottom: 100px;
+  width: 500px;
+  background-size: cover;
 }
 
 
@@ -702,11 +666,19 @@ border-bottom-right-radius: 100%;
   /* transform: translateY(5px) scale(1.5); */
   box-shadow: 60px 60px 60px rgba(243, 147, 147, 0.2);
   /* background-image: url("Screenshot\ 2026-02-23\ 140015.png"); */
-        background-color: darksalmon;
-    margin-left: 100px;
-        width: 500px;
-        background-size: cover;
+  background-color: darksalmon;
+  margin-left: 100px;
+  width: 500px;
+  background-size: cover;
 
+}
+
+.certificate-card4:hover{
+   box-shadow: 60px 60px 60px rgba(243, 147, 147, 0.2);
+  background-color: darksalmon;
+  margin-left: 100px;
+  width: 500px;
+  background-size: cover;
 }
 
 /* Highlighted Center Card */
@@ -781,26 +753,21 @@ border-bottom-right-radius: 100%;
   transition: height 0.5s ease;
   overflow: hidden;
 }
-
 .project-card:hover .overlay {
   height: 100%;
 }
-
 .project-card:hover img {
   transform: scale(1.1);
 }
-
 .overlay h3 {
   font-size: 1.5rem;
   color: #1f242d;
 }
-
 .overlay p {
   font-size: 0.9rem;
   margin: 10px 20px;
   color: #000000;
 }
-
 .overlay .icon {
   text-decoration: none;
   font-size: 1.2rem;
@@ -818,33 +785,28 @@ border-bottom-right-radius: 100%;
   max-width: 800px;
   margin-left: 10rem;
 }
-
 h1 {
   font-size: 3rem;
   margin-bottom: 40px;
   color: aliceblue;
   margin-top: 3rem;
 }
-
 h1 span {
   color: #fffba9;
   /* Cyan accent */
 }
-
 /* Form Styling */
 form {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-
 .input-group {
   display: flex;
 
   justify-content: center;
   align-items: center;
   gap: 20px;
-
 }
 
 input,
@@ -858,8 +820,6 @@ textarea {
   /* Muted text color for placeholders */
   font-size: 1rem;
   outline: none;
-
-
 }
 
 input::placeholder,
@@ -879,7 +839,6 @@ textarea {
   display: flex;
   justify-content: center;
 }
-
 .send-btn {
   background-color: #f1e941;
   color: #000;
@@ -893,7 +852,6 @@ textarea {
   /* The Glow Effect */
   transition: transform 0.2s, box-shadow 0.2s;
 }
-
 .send-btn:hover {
   transform: scale(1.05);
   box-shadow: 0 0 30px rgba(244, 61, 162, 0.9);
@@ -905,7 +863,7 @@ textarea {
 
 .footer-bar {
 
-  background-image:url("https://i.pinimg.com/1200x/05/c7/21/05c721269ec50303a652364eac0c6e30.jpg") ;
+  background-image: url("https://i.pinimg.com/1200x/05/c7/21/05c721269ec50303a652364eac0c6e30.jpg");
   background-size: cover;
   padding: 10px;
   border-top-left-radius: 40px;
@@ -919,7 +877,6 @@ textarea {
 .social-icons {
   display: flex;
   gap: 20px;
-
 }
 
 .icon-link {
@@ -952,11 +909,13 @@ textarea {
 /* ----------------------------------FOOTER SECTION CSS END--------------------------- */
 
 /* ---------------------------------------fl start---------------------------- */
-.f{
+.f {
   font-size: 40px;
   font-weight: 700;
 }
-.f span{
+
+.f span {
   color: #f4ff79;
 }
+
 /* ----------------------------------fl end----------------------------------- */
