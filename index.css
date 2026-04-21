@@ -919,3 +919,171 @@ textarea {
 }
 
 /* ----------------------------------fl end----------------------------------- */
+
+
+@media (max-width: 600px) {
+
+  /* HEADER */
+  header {
+    width: 100%;
+    padding: 15px 20px;
+    flex-direction: column;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* HERO */
+  .phase1 {
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 20px;
+  }
+
+  .text h1 {
+    font-size: 32px;
+  }
+
+  .text h3 {
+    font-size: 20px;
+  }
+
+  /* IMAGE */
+  .image-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .My-img img {
+    width: 250px;
+  }
+
+  /* ABOUT */
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .about-image img {
+    width: 200px;
+    height: auto;
+  }
+
+  /* SKILLS */
+  .skills-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .technical-skills {
+    min-width: auto;
+    padding: 20px;
+  }
+
+  .radial-bars {
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  /* CERTIFICATES */
+  .certificate-container {
+    grid-template-columns: 1fr;
+    transform: scale(1); /* override scaling issue */
+  }
+
+  .certificate-card1,
+  .certificate-card2,
+  .certificate-card3 {
+    width: 100%;
+    height: 220px;
+  }
+
+  /* PROJECTS */
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* CONTACT */
+  .contact-container {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .input-group {
+    flex-direction: column;
+  }
+
+}
+
+
+/* ================= TABLET (601px - 1024px) ================= */
+@media (max-width: 1024px) {
+
+  header {
+    width: 100%;
+    padding: 20px 40px;
+  }
+
+  .phase1 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-container {
+    width: 80%;
+    height: auto;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .radial-bars {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .certificate-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .certificate-card1,
+  .certificate-card2,
+  .certificate-card3 {
+    width: 100%;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-container {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+}
+
+
+/* ================= LARGE DESKTOP FIX ================= */
+@media (min-width: 1025px) {
+
+  header {
+    width: 100%;
+  }
+
+}
